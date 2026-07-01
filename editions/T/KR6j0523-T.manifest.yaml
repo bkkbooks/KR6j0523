@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0523/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0523/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 法華十羅剎法
+  identifiers:
+    krp: KR6j0523
+    cbeta: T21n1292
+    cbeta_old_id: T21n1292
+    authorityid: CA0000907
+    json_key: T1292
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1292.xml
+    old_id: T21n1292
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0523_000-T.yaml, hash: 'sha256:fd4814928c81a86752ce7aa915bf60f71c80d17ca5c45c848207adb13a725eb6'}
+  - {seq: 1, filename: KR6j0523_001-T.yaml, hash: 'sha256:1f5b34e52001f623be9a3a023fa5c6cdc6118c9f246e6153671ea3a310bbf373'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0523_000-T.markers.yaml, hash: 'sha256:cdcc824c7529422f71200f3d483534076a9681d46e18514aefff2aa8baa82de7'}
+  - {seq: 1, role: markers, filename: assets/KR6j0523_001-T.markers.yaml, hash: 'sha256:a161b2ef074ded7c3957d05a1432d55b566c35c7489eb01c202d32a353b0245a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0523_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1082
+  label: 法華十羅剎法
+  type: juan
+  level: 1
+hash: sha256:a8abc3671df3d7b2fcd9108e90e7c04d46becf334afa93ff39531c285e608167
