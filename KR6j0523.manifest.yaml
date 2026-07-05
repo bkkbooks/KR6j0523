@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0523_000.yaml, hash: 'sha256:fd4814928c81a86752ce7aa915bf60f71c80d17ca5c45c848207adb13a725eb6'}
-  - {seq: 1, filename: KR6j0523_001.yaml, hash: 'sha256:6764a287ef4bbbc3dcee29078f5314d7ac4d7ca103247a1cdb044f770b25a46a'}
+  - {seq: 1, filename: KR6j0523_001.yaml, hash: 'sha256:1f5b34e52001f623be9a3a023fa5c6cdc6118c9f246e6153671ea3a310bbf373'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0523_001.markers.yaml, hash: 'sha256:125a65514983840238b266986bea405a7cf33a0f84770ade6bd50793675f5cde'}
+  - {seq: 0, role: markers, filename: assets/KR6j0523_000.markers.yaml, hash: 'sha256:bb22db0239791cc017904035f9897d79552304651b4d00bfd4d2eb0d08f15ebd'}
+  - {seq: 1, role: markers, filename: assets/KR6j0523_001.markers.yaml, hash: 'sha256:0b33b93dca19019c4198ecca3e3c60e64208934d160dd0c8026612ad15d74784'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 法華十羅剎法
   type: juan
   level: 1
-hash: sha256:c3d7429ac8d0bc7aed570aae1e14f74901180609a15c9870d72fea144503f9fd
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:361fc920af93587f6616b51e0f220b4e8eb97343735f8bde37fb246e493bbeba
