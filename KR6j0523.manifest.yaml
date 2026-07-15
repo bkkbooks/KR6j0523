@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0523/v1
 canonical_location: https://kanripo.org/bkk/KR6j0523/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 法華十羅剎法
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0523_000.yaml, hash: 'sha256:fd4814928c81a86752ce7aa915bf60f71c80d17ca5c45c848207adb13a725eb6'}
-  - {seq: 1, filename: KR6j0523_001.yaml, hash: 'sha256:1f5b34e52001f623be9a3a023fa5c6cdc6118c9f246e6153671ea3a310bbf373'}
+  - {seq: 1, filename: KR6j0523_001.yaml, hash: 'sha256:197dcf5d5cb75b6eea2aa3d201682bae54e26dba9abce322a09b9fb6ccf349f9'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0523_000.markers.yaml, hash: 'sha256:bb22db0239791cc017904035f9897d79552304651b4d00bfd4d2eb0d08f15ebd'}
-  - {seq: 1, role: markers, filename: assets/KR6j0523_001.markers.yaml, hash: 'sha256:0b33b93dca19019c4198ecca3e3c60e64208934d160dd0c8026612ad15d74784'}
+  - {seq: 1, role: markers, filename: assets/KR6j0523_001.markers.yaml, hash: 'sha256:29b90bb8cecf16acaa8baeac816311da8e74dec2d5bb1715822b92eb8332f482'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 法華十羅剎法
   type: juan
   level: 1
-hash: sha256:361fc920af93587f6616b51e0f220b4e8eb97343735f8bde37fb246e493bbeba
+hash: sha256:9b62bf91345e6a8ee92bc20df5b2a591831747b54e5b499b784c169e15a34f39
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
